@@ -4,8 +4,8 @@ module.exports = {
   description: '网站描述信息',
   // 默认 '/' ， 如果要发到 user.github.io/blog ，则 base 需要设为 /blog/
   base: '/',
-  // 打包文件存放路径，默认 .vuepress/dist
-  dest: 'dist',
+  // 打包文件存放路径，默认 .vuepress/dist ，此文件可作为 github pages 托管目录
+  dest: 'pages',
   evergreen: true, // 目标客户端为常青树浏览器，即禁止 ESNext 转为 ES5
   configureWebpack: {
     resolve: {
